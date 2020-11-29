@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.content{
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -252px 0px 0px -252px;
+   
+}
+.data{
+    display: flex;
+
+}
+.filler{
+    height: 40px;
+    width: 40px;
+    border: none;
+    font-size: 20px;
+    outline: none;
+    background-color: white;
+}
+.turn{
+    height: 30px;
+    flex-grow: 2;
+    font-size: 20px;
+    padding-top: 5px;
+    
+}
+.game{
+    width: 504px;
+    height: auto;
+}
+
+.hovervisual{
+    display: flex;
+    height: 73px;
+    width: 504px;
+}
+.hovervisual2{
+    display: flex;
+    height: 73px;
+    width: 504px;
+}
+.circle{
+    border: 1px solid black;
+    height: 70px;
+    width: 70px;
+    border-radius: 70px;
+}
+.hovervisual > button{
+    height: 72px;
+    width: 72px;
+    border-radius: 70px;
+    border: 1px solid red;
+    outline: none;
+    background-color: white;
+}
+.hovervisual2 > button{
+    height: 72px;
+    width: 72px;
+    border-radius: 70px;
+    border: 1px solid aqua;
+    outline: none;
+    background-color: white;
+}
+.hovervisual:hover > button:hover{
+    background-color: red;
+}
+.hovervisual2:hover > button:hover{
+    background-color: aqua;
+}
+button.filler:hover{
+    color: red;
+}
+
+.gamearea{
+    position: relative;
+    height: 432px; 
+    width: 504px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.gamearea > div{
+    height: 432px;
+    width: 72px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+} 
