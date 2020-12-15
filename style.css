@@ -93,3 +93,22 @@ button.filler:hover{
     flex-wrap: wrap;
     flex-direction: column-reverse;
 } 
+
+@media (prefers-color-scheme: dark){
+      body{
+          background-color: black;
+      }
+      .circle{
+          border-color: white;
+      }
+      button.filler{
+          color: white;
+      }
+
+      .hovervisual > button, .hovervisual2 > button, .filler{
+          background-color: black;
+      }
+      .text{
+          color: white;
+      }
+  }
